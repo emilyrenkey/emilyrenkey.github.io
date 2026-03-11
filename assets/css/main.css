@@ -2791,7 +2791,7 @@ input, select, textarea {
     		height: 100vh;
     		position: relative;
     		text-align: center;
-    		background-image: url("images/overlay.png"), url("images/background.jpeg");
+    		background-image: url("images/overlay.png"), url("../../background.jpeg");
     		background-position: top left, center center;
    			background-repeat: repeat, no-repeat;
     		background-size: auto, cover;
