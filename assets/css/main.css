@@ -2787,19 +2787,16 @@ input, select, textarea {
 			}
 
 /* Header */
-
-	#header {
-		height: 100vh;
-		position: relative;
-		text-align: center;
-	}
-
-		#header:after {
-			content: '';
-			display: inline-block;
-			height: 100vh;
-			vertical-align: middle;
-		}
+		#header {
+    		height: 100vh;
+    		position: relative;
+    		text-align: center;
+    		background-image: url("images/overlay.png"), url("background.jpeg");
+    		background-position: top left, center center;
+   			background-repeat: repeat, no-repeat;
+    		background-size: auto, cover;
+    		background-attachment: fixed, fixed;
+		}	
 
 		#header header {
 			color: rgba(255, 255, 255, 0.5);
